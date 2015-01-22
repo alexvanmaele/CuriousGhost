@@ -496,6 +496,12 @@ margin on the iframe, cause it breaks stuff. */
     font-family: 'Open Sans', sans-serif;
 }
 
+.nav-bottom
+{
+    padding: 0;
+    margin: 0;
+}
+
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
     display: block;
@@ -591,6 +597,15 @@ margin on the iframe, cause it breaks stuff. */
     font-size: 21px;
     line-height: 0;
     margin-right: 0px;
+}
+
+.back-button-bottom
+{
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    margin: -35px 35px 40px 40px;
+    background: none;
 }
 
 .subscribe-button {
@@ -1300,7 +1315,7 @@ body:not(.post-template) .post-title {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
+    margin: 0rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
     font-family: "Open Sans", sans-serif;
