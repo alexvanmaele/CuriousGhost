@@ -931,7 +931,7 @@ p {
 /* General image style */
 .post-content img, p img, .post-content .full-img
 {
-    margin: 0.6em auto;
+    margin: 1.5em auto;
     border-radius: 5px;
 }
 
@@ -940,7 +940,7 @@ p {
 .post-content .full-img {
     width: 126%;
     max-width: none;
-    margin: 0.6em -13%;
+    margin: 1.5em -13%;
 }
 
 /* The author credit area after the post */
@@ -1686,6 +1686,12 @@ p {
         margin: 0.6em -16px; /* get rid of margins */
         min-width: 0;
         max-width: 112%; /* fallback when calc doesn't work */
+    }
+
+    /* General image style */
+    .post-content img, p img, .post-content .full-img
+    {
+        border-radius: 0;
     }
 
     .post-meta {
