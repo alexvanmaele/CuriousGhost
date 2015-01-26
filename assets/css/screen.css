@@ -926,7 +926,13 @@ p {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+/* General image style */
+.post-content img, p img, .post-content .full-img
+{
     margin: 0.6em auto;
+    border-radius: 5px;
 }
 
 /* Break out larger images to be wider than the main text column
@@ -934,8 +940,7 @@ p {
 .post-content .full-img {
     width: 126%;
     max-width: none;
-    margin: 0 -13%;
-    border-radius: 5px;
+    margin: 0.6em -13%;
 }
 
 /* The author credit area after the post */
@@ -1678,7 +1683,7 @@ p {
     .post-content .full-img {
         width: auto;
         width: calc(100% + 32px); /* expand with to image + margins */
-        margin: 0 -16px; /* get rid of margins */
+        margin: 0.6em -16px; /* get rid of margins */
         min-width: 0;
         max-width: 112%; /* fallback when calc doesn't work */
     }
