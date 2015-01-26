@@ -858,6 +858,13 @@ body:not(.post-template) .post-title {
     line-height: 1.5em;
 }
 
+.tags
+{
+    float: right;
+    margin-right: 8px;
+    padding-right: 12px;
+}
+
 
   /* ==========================================================================
    4.5. CSS3 Transitions
@@ -1585,6 +1592,11 @@ p {
     }
 
     .post-date {
+        display: none;
+    }
+
+    .tags
+    {
         display: none;
     }
 
